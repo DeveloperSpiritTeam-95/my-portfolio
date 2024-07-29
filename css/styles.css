@@ -763,9 +763,11 @@ footer {
   .education-block span {
     float: none;
   }
-  /* .project-image {
-    display: none;
-  } */
+  .project-image {
+    height: 300px;
+    width: 400px;
+    object-fit: contain;
+  }
   .project-info {
     position: relative;
     margin: 0;
